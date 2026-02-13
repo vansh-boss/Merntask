@@ -4,4 +4,4 @@ const connectDB = require("./config/db");
 
 connectDB();
 
-
+module.exports = app; // ✅ very important for Vercel
